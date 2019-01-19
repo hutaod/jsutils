@@ -11,6 +11,7 @@ import removeCookie from './cookie/removeCookie'
 import { isFunction, isArray, isNumber, isElement, isEmptyObject } from './type/checkType'
 import { isMobile, isIos, isAndroid, isIE, isXp } from './device/checkDevice'
 import getKeyName from './keyCode/getKeyName'
+import deepClone from './other/deepClone'
 
 export {
   arrayEqual,
@@ -27,5 +28,6 @@ export {
   isAndroid, 
   isIE, 
   isXp,
-  getKeyName
+  getKeyName,
+  deepClone
 } 
